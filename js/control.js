@@ -42,6 +42,12 @@ function plus_coin(item, menge) {
 		punkteAnzeige.textContent = score + " Punkte";
 		localStorage.setItem("gameover_score", score);
 
+		if (score == 100) {
+			Geschwindikeit = 10;
+		} else if (score == 200) {
+			Geschwindikeit = 20;
+		}
+
 		console.log(score);
 
 		let collisions = allCollisions(spieler, item);
@@ -151,11 +157,11 @@ function loop() {
 
 	plus_coin(item1p, 2);
 	plus_coin(item2p, 1);
-	plus_coin(item3p, 1);
+	plus_coin(item3p, 2);
 	plus_coin(item4p, 1);
-	plus_coin(item5p, 1);
+	plus_coin(item5p, 2);
 	minus_health(item1n, 1);
-	minus_health(item2n, 2);
+	minus_health(item2n, 1);
 	minus_health(item3n, 1);
 
 	// Reload all (Loop)
