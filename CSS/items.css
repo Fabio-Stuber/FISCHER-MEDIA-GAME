@@ -1,0 +1,71 @@
+.item1p {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background: url("../Images/1p.png");
+	background-size: 100px;
+	z-index: 1000;
+}
+
+.item2p {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background: url("../Images/2p.png");
+	background-size: 100px;
+	z-index: 1000;
+}
+
+.item3p {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background: url("../Images/3p.png");
+	background-size: 100px;
+	z-index: 1000;
+}
+
+.item4p {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background: url("../Images/4p.png");
+	background-size: 100px;
+	z-index: 1000;
+}
+
+.item5p {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background: url("../Images/5p.png");
+	background-size: 100px;
+	z-index: 1000;
+}
+
+.item1n {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background: url("../Images/1n.png");
+	background-size: 100px;
+	z-index: 1000;
+}
+
+.item2n {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background: url("../Images/2n.png");
+	background-size: 100px;
+	z-index: 1000;
+}
+
+.item3n {
+	position: absolute;
+	height: 100px;
+	width: 100px;
+	background: url("../Images/3n.png");
+	background-size: 100px;
+	z-index: 1000;
+}
