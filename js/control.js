@@ -42,9 +42,9 @@ function plus_coin(item, menge) {
 		punkteAnzeige.textContent = score + " Punkte";
 		localStorage.setItem("gameover_score", score);
 
-		if (score == 100) {
+		if (score == 500) {
 			Geschwindikeit = 10;
-		} else if (score == 200) {
+		} else if (score == 1000) {
 			Geschwindikeit = 20;
 		}
 
