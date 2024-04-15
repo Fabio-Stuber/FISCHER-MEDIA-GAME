@@ -80,7 +80,7 @@ function Key_Control() {
 	}
 	if (keyboard(27)) {
 		// Exit (Esc)
-		location.assign("index.html");
+		location.assign("Start.html");
 	}
 }
 
@@ -155,11 +155,11 @@ function loop() {
 	let item3n = document.querySelectorAll(".item3n");
 	move_object(item3n);
 
-	plus_coin(item1p, 20);
-	plus_coin(item2p, 10);
-	plus_coin(item3p, 25);
-	plus_coin(item4p, 10);
-	plus_coin(item5p, 20);
+	plus_coin(item1p, 10);
+	plus_coin(item2p, 15);
+	plus_coin(item3p, 20);
+	plus_coin(item4p, 25);
+	plus_coin(item5p, 30);
 	minus_health(item1n, 1);
 	minus_health(item2n, 1);
 	minus_health(item3n, 1);
