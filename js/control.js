@@ -80,7 +80,7 @@ function Key_Control() {
 	}
 	if (keyboard(27)) {
 		// Exit (Esc)
-		location.assign("Start.html");
+		location.assign("index.html");
 	}
 }
 
