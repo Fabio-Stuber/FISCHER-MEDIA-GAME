@@ -101,7 +101,12 @@ li {
 	line-height: 1.5;
 }
 
-td{
+li::marker {
+	color: #6f6f6f;
+	font-weight: 1800;
+}
+
+td {
 	padding: 8px 8px;
 	display: table-cell;
 	text-align: left;
@@ -163,4 +168,31 @@ p.footer {
 	text-decoration: none;
 	transition: 0.225s ease-out, color 0.225s ease-out;
 	margin-bottom: 22px;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 120px;
+	background-color: #004d78;
+	color: #fff;
+	text-align: center;
+
+	border-radius: 6px;
+	padding: 5px 0;
+
+	/* Position the tooltip */
+	position: absolute;
+	z-index: 1;
+	bottom: 100%;
+	left: 50%;
+	margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+	visibility: visible;
 }
